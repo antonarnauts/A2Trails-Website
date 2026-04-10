@@ -69,7 +69,7 @@ export default function SEO({
       <title>{fullTitle}</title>
       <meta name="description" content={metaDescription} />
       <link rel="canonical" href={canonical} />
-      <link rel="icon" type="image/webp" href="/images/A2TrailsLogo.webp" />
+      <link rel="icon" type="image/webp" href="images/A2TrailsLogo.webp" />
       <html lang={currentLang} />
 
       {/* Open Graph / Facebook */}

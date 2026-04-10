@@ -87,14 +87,14 @@ export default function Design() {
           <ServiceSection 
             title={t('services.design.micro.title')}
             description={t('services.design.micro.desc')}
-            image="/images/Micro.webp"
+            image="images/Micro.webp"
             features={t('services.design.micro.features', { returnObjects: true }) as string[]}
           />
           
           <ServiceSection 
             title={t('services.design.meso.title')}
             description={t('services.design.meso.desc')}
-            image="/images/Meso.webp"
+            image="images/Meso.webp"
             imageRight={true}
             features={t('services.design.meso.features', { returnObjects: true }) as string[]}
           />
@@ -102,7 +102,7 @@ export default function Design() {
           <ServiceSection 
             title={t('services.design.macro.title')}
             description={t('services.design.macro.desc')}
-            image="/images/Macro.webp"
+            image="images/Macro.webp"
             features={t('services.design.macro.features', { returnObjects: true }) as string[]}
           />
         </div>

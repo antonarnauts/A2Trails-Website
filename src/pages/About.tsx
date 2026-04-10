@@ -125,25 +125,25 @@ export default function About() {
               name="Anton Arnauts" 
               role={t('about.team.anton.role')} 
               description={t('about.team.anton.desc')}
-              image="/images/Anton-Arnauts.webp"
+              image="images/Anton-Arnauts.webp"
             />
             <TeamMember 
               name="Ward De Prins" 
               role={t('about.team.ward.role')} 
               description={t('about.team.ward.desc')}
-              image="/images/ward-de-prins.webp"
+              image="images/ward-de-prins.webp"
             />
             <TeamMember 
               name="Jelle Harnisfeger" 
               role={t('about.team.jelle.role')} 
               description={t('about.team.jelle.desc')}
-              image="/images/Jelle-Harnisfeger.webp"
+              image="images/Jelle-Harnisfeger.webp"
             />
             <TeamMember 
               name="Rafael Comptdaer" 
               role={t('about.team.rafael.role')} 
               description={t('about.team.rafael.desc')}
-              image="/images/Rafael-Comptdaer.webp"
+              image="images/Rafael-Comptdaer.webp"
             />
           </div>
         </div>

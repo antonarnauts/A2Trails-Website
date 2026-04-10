@@ -74,7 +74,7 @@ const Navbar = () => {
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center">
               <img 
-                src="/images/A2TrailsLogo.webp" 
+                src="images/A2TrailsLogo.webp" 
                 alt="A2Trails - Sustainable Mountain Bike Trail Building Logo" 
                 className="h-[60px] w-auto" 
                 referrerPolicy="no-referrer"
@@ -178,7 +178,7 @@ const Hero = () => {
       {/* Hero Background */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/A2trails-hero-background.webp"
+          src="images/A2trails-hero-background.webp"
           alt="Professional mountain bike trail construction background"
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"
@@ -389,7 +389,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-1">
             <div className="mb-6">
               <img 
-                src="/images/A2TrailsLogo.webp" 
+                src="images/A2TrailsLogo.webp" 
                 alt="A2Trails - Mountain Bike Infrastructure Experts" 
                 className="h-[60px] w-auto" 
                 referrerPolicy="no-referrer"
