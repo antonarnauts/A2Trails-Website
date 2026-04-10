@@ -20,7 +20,7 @@ export default function SEO({
   const currentLang = i18n.language;
   
   const siteName = 'A2Trails';
-  const fullTitle = title ? `${title} | ${siteName}` : `${siteName} | Professional Mountain Bike Infrastructure`;
+  const fullTitle = title ? `${title} | ${siteName}` : siteName;
   const defaultDescription = 'A2Trails specializes in the consultancy, design, and construction of sustainable mountain bike trails, pump tracks, and skill parks across Europe.';
   const metaDescription = description || defaultDescription;
 
@@ -69,6 +69,7 @@ export default function SEO({
       <title>{fullTitle}</title>
       <meta name="description" content={metaDescription} />
       <link rel="canonical" href={canonical} />
+      <link rel="icon" type="image/webp" href="/images/A2TrailsLogo.webp" />
       <html lang={currentLang} />
 
       {/* Open Graph / Facebook */}
