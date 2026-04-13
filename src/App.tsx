@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from "motion/react";
 import { Mountain, Waves, Target, ArrowRight, Menu, X, ClipboardList, DraftingCompass, HardHat, ChevronDown, Facebook, Instagram, Mail, Phone, FileText, Zap, Bike } from "lucide-react";
 import { useState, useEffect } from "react";
-import { BrowserRouter, Routes, Route, Link, useLocation } from "react-router-dom";
+import { HashRouter, Routes, Route, Link, useLocation } from "react-router-dom";
 import { useTranslation, Trans } from "react-i18next";
 import SEO from "./components/SEO";
 
@@ -476,7 +476,7 @@ const HomePage = () => (
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <div className="min-h-screen bg-brand-dark">
         <Navbar />
@@ -495,6 +495,6 @@ export default function App() {
         </main>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
