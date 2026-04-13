@@ -23,7 +23,6 @@ const ServiceSection = ({ title, description, features, image, imageRight = fals
         src={getAssetPath(image)} 
         alt={`${title} - A2Trails Consultancy Service`} 
         className="w-full h-full object-cover" 
-        referrerPolicy="no-referrer"
         loading="lazy"
       />
     </motion.div>

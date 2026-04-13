@@ -31,7 +31,6 @@ const TeamMember = ({ name, role, description, image, imageClassName = "" }: { n
         src={getAssetPath(image)} 
         alt={`${name} - ${role} at A2Trails`} 
         className={`w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300 ${imageClassName}`} 
-        referrerPolicy="no-referrer" 
         loading="lazy"
       />
     </div>
