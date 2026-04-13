@@ -24,7 +24,6 @@ const ServiceSection = ({ title, description, features, image, imageRight = fals
         alt={`${title} - A2Trails Design Service`} 
         className="w-full h-full object-cover border-none scale-110" 
         loading="lazy"
-        crossOrigin="anonymous"
       />
     </motion.div>
     <motion.div 

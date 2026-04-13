@@ -1,21 +1,11 @@
 export function getAssetPath(path: string) {
   const cleanPath = path.startsWith('/') ? path.slice(1) : path;
   
-  if (typeof window !== 'undefined') {
-    const hostname = window.location.hostname;
-    const pathname = window.location.pathname;
-    
-    // Check if we are on GitHub Pages (username.github.io/repo-name/)
-    if (hostname.includes('github.io')) {
-      const pathSegments = pathname.split('/').filter(Boolean);
-      if (pathSegments.length > 0) {
-        // The first segment is the repository name
-        const repoName = pathSegments[0];
-        return `/${repoName}/${cleanPath}`;
-      }
-    }
-  }
+  // Use Vite's built-in BASE_URL which is set via the 'base' config in vite.config.ts
+  const baseUrl = import.meta.env.BASE_URL || '/';
   
-  // Fallback for local development or custom domains
-  return `/${cleanPath}`;
+  // Ensure baseUrl ends with a slash and cleanPath does not start with one
+  const normalizedBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+  
+  return `${normalizedBase}${cleanPath}`;
 }

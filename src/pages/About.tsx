@@ -32,7 +32,6 @@ const TeamMember = ({ name, role, description, image, imageClassName = "" }: { n
         alt={`${name} - ${role} at A2Trails`} 
         className={`w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300 ${imageClassName}`} 
         loading="lazy"
-        crossOrigin="anonymous"
       />
     </div>
     <h3 className="text-xl font-bold text-white mb-1">{name}</h3>

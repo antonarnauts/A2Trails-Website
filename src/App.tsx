@@ -78,7 +78,6 @@ const LanguageButtons = () => (
                 src={getAssetPath('images/a2trailslogo.webp')} 
                 alt="A2Trails - Sustainable Mountain Bike Trail Building Logo" 
                 className="h-[60px] w-auto" 
-                crossOrigin="anonymous"
               />
             </Link>
           </div>
@@ -183,7 +182,6 @@ const Hero = () => {
           alt="Professional mountain bike trail construction background"
           className="w-full h-full object-cover"
           loading="eager"
-          crossOrigin="anonymous"
           onError={(e) => {
             const target = e.target as HTMLImageElement;
             target.src = "https://picsum.photos/seed/a2trails/1920/1080";
@@ -394,7 +392,6 @@ const Footer = () => {
                 alt="A2Trails - Mountain Bike Infrastructure Experts" 
                 className="h-[60px] w-auto" 
                 loading="lazy"
-                crossOrigin="anonymous"
               />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">

@@ -5,6 +5,7 @@ import { useState, useMemo } from "react";
 import { useTranslation, Trans } from "react-i18next";
 import SEO from "../components/SEO";
 import { projectsData } from "../data/projects";
+import { getAssetPath } from "../lib/utils";
 
 export default function Projects() {
   const { t } = useTranslation();
