@@ -87,14 +87,14 @@ export default function Consultancy() {
           <ServiceSection 
             title={t('services.consultancy.feasibility.title')}
             description={t('services.consultancy.feasibility.desc')}
-            image="/images/Image-Soil.webp"
+            image="images/Image-Soil.webp"
             features={t('services.consultancy.feasibility.features', { returnObjects: true }) as string[]}
           />
           
           <ServiceSection 
             title={t('services.consultancy.engineering.title')}
             description={t('services.consultancy.engineering.desc')}
-            image="/images/Image-Drainage.webp"
+            image="images/Image-Drainage.webp"
             imageRight={true}
             features={t('services.consultancy.engineering.features', { returnObjects: true }) as string[]}
           />
@@ -102,7 +102,7 @@ export default function Consultancy() {
           <ServiceSection 
             title={t('services.consultancy.strategic.title')}
             description={t('services.consultancy.strategic.desc')}
-            image="/images/Image-Planning.webp"
+            image="images/Image-Planning.webp"
             features={t('services.consultancy.strategic.features', { returnObjects: true }) as string[]}
           />
         </div>

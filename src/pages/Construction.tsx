@@ -89,7 +89,7 @@ export default function Construction() {
             id="pumptracks"
             title={t('services.construction.pumptracks.title')}
             description={t('services.construction.pumptracks.desc')}
-            image="/images/Image-pumptracks.webp"
+            image="images/Image-pumptracks.webp"
             features={t('services.construction.pumptracks.features', { returnObjects: true }) as string[]}
           />
           
@@ -97,7 +97,7 @@ export default function Construction() {
             id="mtb-trails"
             title={t('services.construction.mtbTrails.title')}
             description={t('services.construction.mtbTrails.desc')}
-            image="/images/Image-Trails2.webp"
+            image="images/Image-Trails2.webp"
             imageRight={true}
             features={t('services.construction.mtbTrails.features', { returnObjects: true }) as string[]}
           />
@@ -106,7 +106,7 @@ export default function Construction() {
             id="jump-tracks"
             title={t('services.construction.jumpTracks.title')}
             description={t('services.construction.jumpTracks.desc')}
-            image="/images/Image-Jumptracks.webp"
+            image="images/Image-Jumptracks.webp"
             features={t('services.construction.jumpTracks.features', { returnObjects: true }) as string[]}
           />
 
@@ -114,7 +114,7 @@ export default function Construction() {
             id="skill-tracks"
             title={t('services.construction.skillTracks.title')}
             description={t('services.construction.skillTracks.desc')}
-            image="/images/Image-Skills.webp"
+            image="images/Image-Skills.webp"
             imageRight={true}
             features={t('services.construction.skillTracks.features', { returnObjects: true }) as string[]}
           />
@@ -123,7 +123,7 @@ export default function Construction() {
             id="bmx-tracks"
             title={t('services.construction.bmxTracks.title')}
             description={t('services.construction.bmxTracks.desc')}
-            image="/images/Image-Bmx.webp"
+            image="images/Image-Bmx.webp"
             features={t('services.construction.bmxTracks.features', { returnObjects: true }) as string[]}
           />
 
@@ -131,7 +131,7 @@ export default function Construction() {
             id="e-moto-tracks"
             title={t('services.construction.eMotoTracks.title')}
             description={t('services.construction.eMotoTracks.desc')}
-            image="/images/Emoto.webp"
+            image="images/Emoto.webp"
             imageRight={true}
             features={t('services.construction.eMotoTracks.features', { returnObjects: true }) as string[]}
           />
