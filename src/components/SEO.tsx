@@ -29,7 +29,7 @@ export default function SEO({
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "A2Trails",
-    "image": "https://a2trails.com/images/logo.webp",
+    "image": "https://a2trails.com/images/a2trailslogo.webp",
     "@id": "https://a2trails.com",
     "url": "https://a2trails.com",
     "telephone": "+3200000000",
@@ -77,13 +77,13 @@ export default function SEO({
       <meta property="og:description" content={metaDescription} />
       <meta property="og:url" content={canonical} />
       <meta property="og:site_name" content={siteName} />
-      <meta property="og:image" content="https://a2trails.com/images/og-image.webp" />
+      <meta property="og:image" content="https://a2trails.com/images/a2trails-hero-background.webp" />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={metaDescription} />
-      <meta name="twitter:image" content="https://a2trails.com/images/og-image.webp" />
+      <meta name="twitter:image" content="https://a2trails.com/images/a2trails-hero-background.webp" />
 
       {/* Structured Data */}
       <script type="application/ld+json">

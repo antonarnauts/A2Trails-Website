@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { HashRouter, Routes, Route, Link, useLocation } from "react-router-dom";
 import { useTranslation, Trans } from "react-i18next";
 import SEO from "./components/SEO";
+import { getAssetPath } from './lib/utils';
 
 // Pages
 import Consultancy from "./pages/Consultancy";
@@ -49,7 +50,7 @@ const Navbar = () => {
     i18n.changeLanguage(lng);
   };
 
-  const LanguageButtons = () => (
+const LanguageButtons = () => (
     <div className="flex items-center space-x-2 ml-4">
       {['en', 'nl', 'fr'].map((lng) => (
         <button
@@ -74,7 +75,7 @@ const Navbar = () => {
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center">
               <img 
-                src="images/A2TrailsLogo.webp" 
+                src={getAssetPath('images/a2trailslogo.webp')} 
                 alt="A2Trails - Sustainable Mountain Bike Trail Building Logo" 
                 className="h-[60px] w-auto" 
                 referrerPolicy="no-referrer"
@@ -178,7 +179,7 @@ const Hero = () => {
       {/* Hero Background */}
       <div className="absolute inset-0 z-0">
         <img
-          src="images/A2trails-hero-background.webp"
+          src={getAssetPath('images/a2trails-hero-background.webp')}
           alt="Professional mountain bike trail construction background"
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"
@@ -389,7 +390,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-1">
             <div className="mb-6">
               <img 
-                src="images/A2TrailsLogo.webp" 
+                src={getAssetPath('images/a2trailslogo.webp')} 
                 alt="A2Trails - Mountain Bike Infrastructure Experts" 
                 className="h-[60px] w-auto" 
                 referrerPolicy="no-referrer"

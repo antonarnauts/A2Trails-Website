@@ -3,6 +3,7 @@ import { Check } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import SEO from "../components/SEO";
+import { getAssetPath } from "../lib/utils";
 
 const ServiceSection = ({ id, title, description, features, image, imageRight = false }: { 
   id?: string;
@@ -20,7 +21,7 @@ const ServiceSection = ({ id, title, description, features, image, imageRight = 
       className="w-full lg:w-1/2 rounded-2xl overflow-hidden aspect-[4/3] shadow-2xl"
     >
       <img 
-        src={image} 
+        src={getAssetPath(image)} 
         alt={`${title} - A2Trails Construction Service`} 
         className="w-full h-full object-cover" 
         referrerPolicy="no-referrer"
@@ -89,7 +90,7 @@ export default function Construction() {
             id="pumptracks"
             title={t('services.construction.pumptracks.title')}
             description={t('services.construction.pumptracks.desc')}
-            image="images/Image-pumptracks.webp"
+            image="images/image-pumptracks.webp"
             features={t('services.construction.pumptracks.features', { returnObjects: true }) as string[]}
           />
           
@@ -97,7 +98,7 @@ export default function Construction() {
             id="mtb-trails"
             title={t('services.construction.mtbTrails.title')}
             description={t('services.construction.mtbTrails.desc')}
-            image="images/Image-Trails2.webp"
+            image="images/image-trails2.webp"
             imageRight={true}
             features={t('services.construction.mtbTrails.features', { returnObjects: true }) as string[]}
           />
@@ -106,7 +107,7 @@ export default function Construction() {
             id="jump-tracks"
             title={t('services.construction.jumpTracks.title')}
             description={t('services.construction.jumpTracks.desc')}
-            image="images/Image-Jumptracks.webp"
+            image="images/image-jumptracks.webp"
             features={t('services.construction.jumpTracks.features', { returnObjects: true }) as string[]}
           />
 
@@ -114,7 +115,7 @@ export default function Construction() {
             id="skill-tracks"
             title={t('services.construction.skillTracks.title')}
             description={t('services.construction.skillTracks.desc')}
-            image="images/Image-Skills.webp"
+            image="images/image-skills.webp"
             imageRight={true}
             features={t('services.construction.skillTracks.features', { returnObjects: true }) as string[]}
           />
@@ -123,7 +124,7 @@ export default function Construction() {
             id="bmx-tracks"
             title={t('services.construction.bmxTracks.title')}
             description={t('services.construction.bmxTracks.desc')}
-            image="images/Image-Bmx.webp"
+            image="images/image-bmx.webp"
             features={t('services.construction.bmxTracks.features', { returnObjects: true }) as string[]}
           />
 
@@ -131,7 +132,7 @@ export default function Construction() {
             id="e-moto-tracks"
             title={t('services.construction.eMotoTracks.title')}
             description={t('services.construction.eMotoTracks.desc')}
-            image="images/Emoto.webp"
+            image="images/emoto.webp"
             imageRight={true}
             features={t('services.construction.eMotoTracks.features', { returnObjects: true }) as string[]}
           />

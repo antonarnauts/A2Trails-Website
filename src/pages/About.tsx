@@ -3,6 +3,7 @@ import { Award, Users, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import SEO from "../components/SEO";
+import { getAssetPath } from "../lib/utils";
 
 const StatItem = ({ icon: Icon, value, label }: { icon: any, value: string, label: string }) => (
   <div className="text-center">
@@ -27,7 +28,7 @@ const TeamMember = ({ name, role, description, image, imageClassName = "" }: { n
   <div className="bg-brand-card p-8 rounded-2xl border border-white/5 text-center group hover:border-brand-orange/20 transition-all">
     <div className="w-24 h-24 rounded-full bg-white/5 mx-auto mb-6 overflow-hidden border-2 border-transparent group-hover:border-brand-orange/50 transition-all">
       <img 
-        src={image} 
+        src={getAssetPath(image)} 
         alt={`${name} - ${role} at A2Trails`} 
         className={`w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300 ${imageClassName}`} 
         referrerPolicy="no-referrer" 
@@ -125,7 +126,7 @@ export default function About() {
               name="Anton Arnauts" 
               role={t('about.team.anton.role')} 
               description={t('about.team.anton.desc')}
-              image="images/Anton-Arnauts.webp"
+              image="images/anton-arnauts.webp"
             />
             <TeamMember 
               name="Ward De Prins" 
@@ -137,13 +138,13 @@ export default function About() {
               name="Jelle Harnisfeger" 
               role={t('about.team.jelle.role')} 
               description={t('about.team.jelle.desc')}
-              image="images/Jelle-Harnisfeger.webp"
+              image="images/jelle-harnisfeger.webp"
             />
             <TeamMember 
               name="Rafael Comptdaer" 
               role={t('about.team.rafael.role')} 
               description={t('about.team.rafael.desc')}
-              image="images/Rafael-Comptdaer.webp"
+              image="images/rafael-comptdaer.webp"
             />
           </div>
         </div>

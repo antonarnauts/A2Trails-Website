@@ -3,6 +3,7 @@ import { Check } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import SEO from "../components/SEO";
+import { getAssetPath } from "../lib/utils";
 
 const ServiceSection = ({ title, description, features, image, imageRight = false }: { 
   title: string; 
@@ -19,7 +20,7 @@ const ServiceSection = ({ title, description, features, image, imageRight = fals
       className="w-full lg:w-[37.5%] rounded-2xl overflow-hidden aspect-[4/3] shadow-2xl"
     >
       <img 
-        src={image} 
+        src={getAssetPath(image)} 
         alt={`${title} - A2Trails Consultancy Service`} 
         className="w-full h-full object-cover" 
         referrerPolicy="no-referrer"
@@ -87,14 +88,14 @@ export default function Consultancy() {
           <ServiceSection 
             title={t('services.consultancy.feasibility.title')}
             description={t('services.consultancy.feasibility.desc')}
-            image="images/Image-Soil.webp"
+            image="images/image-soil.webp"
             features={t('services.consultancy.feasibility.features', { returnObjects: true }) as string[]}
           />
           
           <ServiceSection 
             title={t('services.consultancy.engineering.title')}
             description={t('services.consultancy.engineering.desc')}
-            image="images/Image-Drainage.webp"
+            image="images/image-drainage.webp"
             imageRight={true}
             features={t('services.consultancy.engineering.features', { returnObjects: true }) as string[]}
           />
@@ -102,7 +103,7 @@ export default function Consultancy() {
           <ServiceSection 
             title={t('services.consultancy.strategic.title')}
             description={t('services.consultancy.strategic.desc')}
-            image="images/Image-Planning.webp"
+            image="images/image-planning.webp"
             features={t('services.consultancy.strategic.features', { returnObjects: true }) as string[]}
           />
         </div>

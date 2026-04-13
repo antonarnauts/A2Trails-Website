@@ -3,6 +3,7 @@ import { Check } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import SEO from "../components/SEO";
+import { getAssetPath } from "../lib/utils";
 
 const ServiceSection = ({ title, description, features, image, imageRight = false }: { 
   title: string; 
@@ -19,7 +20,7 @@ const ServiceSection = ({ title, description, features, image, imageRight = fals
       className="w-full lg:w-[37.5%] rounded-3xl overflow-hidden aspect-[4/3]"
     >
       <img 
-        src={image} 
+        src={getAssetPath(image)} 
         alt={`${title} - A2Trails Design Service`} 
         className="w-full h-full object-cover border-none scale-110" 
         referrerPolicy="no-referrer"
@@ -87,14 +88,14 @@ export default function Design() {
           <ServiceSection 
             title={t('services.design.micro.title')}
             description={t('services.design.micro.desc')}
-            image="images/Micro.webp"
+            image="images/micro.webp"
             features={t('services.design.micro.features', { returnObjects: true }) as string[]}
           />
           
           <ServiceSection 
             title={t('services.design.meso.title')}
             description={t('services.design.meso.desc')}
-            image="images/Meso.webp"
+            image="images/meso.webp"
             imageRight={true}
             features={t('services.design.meso.features', { returnObjects: true }) as string[]}
           />
@@ -102,7 +103,7 @@ export default function Design() {
           <ServiceSection 
             title={t('services.design.macro.title')}
             description={t('services.design.macro.desc')}
-            image="images/Macro.webp"
+            image="images/macro.webp"
             features={t('services.design.macro.features', { returnObjects: true }) as string[]}
           />
         </div>
