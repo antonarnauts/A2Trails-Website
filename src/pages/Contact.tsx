@@ -120,7 +120,7 @@ export default function Contact() {
                   </motion.div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-6">
-                    {state.errors && state.errors.length > 0 && (
+                    {state.errors && (
                       <motion.div 
                         initial={{ opacity: 0, y: -10 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -171,6 +171,7 @@ export default function Contact() {
                           <option value="consultancy">{t('nav.consultancy')}</option>
                           <option value="design">{t('nav.design')}</option>
                           <option value="construction">{t('nav.construction')}</option>
+                          <option value="maintenance">{t('nav.maintenance')}</option>
                           <option value="designBuild">{t('nav.designBuild')}</option>
                         </select>
                         <ValidationError prefix="Project Type" field="projectType" errors={state.errors} className="text-red-500 text-xs mt-1" />

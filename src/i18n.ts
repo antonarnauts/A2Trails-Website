@@ -22,6 +22,7 @@ i18n
             consultancy: 'Consultancy & Engineering',
             design: 'Design',
             construction: 'Construction',
+            maintenance: 'Maintenance',
             designBuild: 'Design and Build',
           },
           hero: {
@@ -41,7 +42,10 @@ i18n
               desc: 'Creative and functional design of trail centers, skill parks, and pump tracks tailored to your specific needs.',
             },
             construction: {
-              desc: 'Professional building and maintenance using specialized machinery and hand-finishing for durable, high-quality bike infrastructure.',
+              desc: 'Professional building using specialized machinery and hand-finishing for durable, high-quality bike infrastructure.',
+            },
+            maintenance: {
+              desc: 'Preserving the quality and safety of your infrastructure through routine inspections and professional repairs.',
             },
           },
           cta: {
@@ -338,6 +342,47 @@ i18n
                 button: 'Build with Us',
               },
             },
+            maintenance: {
+              title: 'Maintenance',
+              subtitle: 'Preserving the quality and safety of your bike infrastructure',
+              asphalt: {
+                title: 'Asphalt Pumptracks',
+                desc: 'Specialized maintenance for asphalt surfaces to ensure long-lasting performance and rider safety.',
+                features: [
+                  'Crack repair',
+                  'Erosion repair',
+                  'Safety lines',
+                  'Safety inspections',
+                  'Surface repair',
+                ],
+              },
+              gravelDirt: {
+                title: 'Gravel and Dirt Trails',
+                desc: 'Keeping natural surface trails in top shape through expert shaping and erosion management.',
+                features: [
+                  'Reshaping',
+                  'Erosion repair',
+                  'Feature inspection and repair',
+                  'Signage and Information Panels',
+                  'Green Maintenance',
+                ],
+              },
+              green: {
+                title: 'Green Maintenance',
+                desc: 'Ecological management of the surroundings to preserve visibility and natural aesthetics.',
+                features: [
+                  'Vegetation control',
+                  'Trimming overgrowth',
+                  'Invasive species management',
+                  'Accessibility of trails',
+                ],
+              },
+              cta: {
+                title: 'Protect Your Investment',
+                subtitle: 'Regular maintenance extends the lifespan of your infrastructure and ensures maximum safety for users.',
+                button: 'Schedule Maintenance',
+              },
+            },
           },
           privacy: {
             title: "Privacy Policy: A2Trails",
@@ -445,6 +490,7 @@ i18n
             consultancy: 'Consultancy & Engineering',
             design: 'Ontwerp',
             construction: 'Bouw',
+            maintenance: 'Onderhoud',
             designBuild: 'Design and Build',
           },
           hero: {
@@ -464,7 +510,10 @@ i18n
               desc: 'Creatief en functioneel ontwerp van trailcenters, skillparks en pumptracks afgestemd op uw specifieke behoeften.',
             },
             construction: {
-              desc: 'Professionele bouw en onderhoud met gespecialiseerde machines en handmatige afwerking voor duurzame fietsinfrastructuur van hoge kwaliteit.',
+              desc: 'Professionele bouw met gespecialiseerde machines en handmatige afwerking voor duurzame fietsinfrastructuur van hoge kwaliteit.',
+            },
+            maintenance: {
+              desc: 'Behoud van de kwaliteit en veiligheid van uw infrastructuur door routinematige inspecties en professionele reparaties.',
             },
           },
           cta: {
@@ -494,8 +543,8 @@ i18n
             approach: {
               title: 'Onze Aanpak',
               community: {
-                title: 'Focus op Gemeenschap',
-                desc: 'We werken nauw samen met lokale gemeenschappen om ervoor te zorgen dat onze projecten aan hun behoeften voldoen en geliefde ontmoetingsplaatsen worden.',
+                title: 'Focus op Lokale Gebruikers',
+                desc: 'We werken nauw samen met lokale gebruikers om ervoor te zorgen dat onze projecten aan hun behoeften voldoen en geliefde ontmoetingsplaatsen worden.',
               },
               design: {
                 title: 'Aangepast Ontwerp',
@@ -601,11 +650,11 @@ i18n
               subtitle: 'Strategische planning en technische expertise voor duurzame fietsinfrastructuur',
               feasibility: {
                 title: 'Haalbaarheids- & Impactstudies',
-                desc: 'Uitgebreide analyse van het potentieel van de site, de impact op het milieu en de behoeften van de gemeenschap om de levensvatbaarheid van het project te waarborgen.',
+                desc: 'Uitgebreide analyse van het potentieel van de site, de impact op het milieu en de behoeften van de lokale gebruikers om de levensvatbaarheid van het project te waarborgen.',
                 features: [
                   'Beoordeling van het potentieel van de site',
                   'Milieueffectanalyse',
-                  'Enquêtes naar de behoeften van de gemeenschap',
+                  'Enquêtes naar de behoeften van de lokale gebruikers',
                   'Risicobeoordeling',
                   'Controle op naleving van regelgeving',
                 ],
@@ -679,7 +728,7 @@ i18n
               },
               cta: {
                 title: 'Creatieve Visie',
-                subtitle: 'Klaar om uw project vorm te zien krijgen? Laat onze ontwerpers een visie creëren die uw gemeenschap inspireert.',
+                subtitle: 'Klaar om uw project vorm te zien krijgen? Laat onze ontwerpers een visie creëren die uw lokale gebruikers inspireert.',
                 button: 'Begin Met Ontwerpen',
               },
             },
@@ -759,6 +808,47 @@ i18n
                 title: 'Gebouwd Om Mee Te Gaan',
                 subtitle: 'Klaar om te beginnen? Ons constructieteam brengt tientallen jaren ervaring mee naar elke bouw.',
                 button: 'Bouw Met Ons',
+              },
+            },
+            maintenance: {
+              title: 'Onderhoud',
+              subtitle: 'Behoud van de kwaliteit en veiligheid van uw fietsinfrastructuur',
+              asphalt: {
+                title: 'Asfalt Pumptracks',
+                desc: 'Gespecialiseerd onderhoud voor asfaltoppervlakken om prestaties op lange termijn en veiligheid van de rijder te garanderen.',
+                features: [
+                  'Scheurreparatie',
+                  'Erosieherstel',
+                  'Veiligheidsbelijning',
+                  'Veiligheidsinspecties',
+                  'Oppervlakteherstel',
+                ],
+              },
+              gravelDirt: {
+                title: 'Grind- en Onverharde Trails',
+                desc: 'Natuurlijke trails in topvorm houden door deskundige vormgeving en erosiebeheer.',
+                features: [
+                  'Hervormen',
+                  'Erosieherstel',
+                  'Inspectie en reparatie van features',
+                  'Signalisatie en Informatiepanelen',
+                  'Groenonderhoud',
+                ],
+              },
+              green: {
+                title: 'Groenonderhoud',
+                desc: 'Ecologisch beheer van de omgeving om de zichtbaarheid en natuurlijke esthetiek te behouden.',
+                features: [
+                  'Vegetatiecontrole',
+                  'Snoeien van overgroei',
+                  'Beheer van invasieve soorten',
+                  'Toegankelijkheid van trails',
+                ],
+              },
+              cta: {
+                title: 'Bescherm Uw Investering',
+                subtitle: 'Regelmatig onderhoud verlengt de levensduur van uw infrastructuur en garandeert maximale veiligheid voor gebruikers.',
+                button: 'Onderhoud Inplannen',
               },
             },
           },
@@ -868,6 +958,7 @@ i18n
             consultancy: 'Conseil & Ingénierie',
             design: 'Conception',
             construction: 'Construction',
+            maintenance: 'Entretien',
             designBuild: 'Design and Build',
           },
           hero: {
@@ -887,7 +978,10 @@ i18n
               desc: 'Conception créative et fonctionnelle de centres de pistes, de parcs de compétences et de pump tracks adaptés à vos besoins spécifiques.',
             },
             construction: {
-              desc: 'Construction et entretien professionnels utilisant des machines spécialisées et des finitions manuelles pour une infrastructure cyclable durable et de haute qualité.',
+              desc: 'Construction professionnelle utilisant des machines spécialisées et des finitions manuelles pour une infrastructure cyclable durable et de haute qualité.',
+            },
+            maintenance: {
+              desc: 'Préserver la qualité et la sécurité de vos infrastructures grâce à des inspections de routine et des réparations professionnelles.',
             },
           },
           cta: {
@@ -1181,6 +1275,47 @@ i18n
                 title: 'Construit Pour Durer',
                 subtitle: 'Prêt à commencer les travaux ? Notre équipe de construction apporte des décennies d\'expérience à chaque réalisation.',
                 button: 'Construisez Avec Nous',
+              },
+            },
+            maintenance: {
+              title: 'Entretien',
+              subtitle: 'Préserver la qualité et la sécurité de vos infrastructures cyclables',
+              asphalt: {
+                title: 'Pump Tracks en Asphalte',
+                desc: 'Entretien spécialisé des surfaces en asphalte pour garantir des performances durables et la sécurité des riders.',
+                features: [
+                  'Réparation de fissures',
+                  'Réparation de l\'érosion',
+                  'Lignes de sécurité',
+                  'Inspections de sécurité',
+                  'Réparation de surface',
+                ],
+              },
+              gravelDirt: {
+                title: 'Pistes en Gravier et Terre',
+                desc: 'Maintenir les pistes à surface naturelle en excellent état grâce à un façonnage expert et une gestion de l\'érosion.',
+                features: [
+                  'Remodelage',
+                  'Réparation de l\'érosion',
+                  'Inspection et réparation des éléments',
+                  'Signalisation et Panneaux d\'Information',
+                  'Entretien Vert',
+                ],
+              },
+              green: {
+                title: 'Entretien Vert',
+                desc: 'Gestion écologique des abords pour préserver la visibilité et l\'esthétique naturelle.',
+                features: [
+                  'Contrôle de la végétation',
+                  'Taille de la croissance excessive',
+                  'Gestion des espèces envahissantes',
+                  'Accessibilité des pistes',
+                ],
+              },
+              cta: {
+                title: 'Protégez Votre Investissement',
+                subtitle: 'Un entretien régulier prolonge la durée de vie de votre infrastructure et assure une sécurité maximale aux utilisateurs.',
+                button: 'Planifier un Entretien',
               },
             },
           },

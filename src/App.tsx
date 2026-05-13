@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from "motion/react";
-import { Mountain, Waves, Target, ArrowRight, Menu, X, ClipboardList, DraftingCompass, HardHat, ChevronDown, Facebook, Instagram, Mail, Phone, FileText, Zap, Bike } from "lucide-react";
+import { Mountain, Waves, Target, ArrowRight, Menu, X, ClipboardList, DraftingCompass, HardHat, ChevronDown, Facebook, Instagram, Mail, Phone, FileText, Zap, Bike, ShieldCheck, Wrench, Settings } from "lucide-react";
 import { useState, useEffect } from "react";
 import { HashRouter, Routes, Route, Link, useLocation } from "react-router-dom";
 import { useTranslation, Trans } from "react-i18next";
@@ -10,6 +10,7 @@ import { getAssetPath } from './lib/utils';
 import Consultancy from "./pages/Consultancy";
 import Design from "./pages/Design";
 import Construction from "./pages/Construction";
+import Maintenance from "./pages/Maintenance";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -44,6 +45,7 @@ const Navbar = () => {
     { title: t('nav.consultancy'), href: "/services/consultancy" },
     { title: t('nav.design'), href: "/services/design" },
     { title: t('nav.construction'), href: "/services/construction" },
+    { title: t('nav.maintenance'), href: "/services/maintenance" },
   ];
 
   const changeLanguage = (lng: string) => {
@@ -291,6 +293,12 @@ const Expertise = () => {
       icon: <HardHat className="h-10 w-10 text-brand-orange" />,
       href: "/services/construction"
     },
+    {
+      title: t('nav.maintenance'),
+      description: t('expertise.maintenance.desc'),
+      icon: <ShieldCheck className="h-10 w-10 text-brand-orange" />,
+      href: "/services/maintenance"
+    },
   ];
 
   return (
@@ -316,7 +324,7 @@ const Expertise = () => {
           </motion.p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <motion.div
               key={index}
@@ -415,6 +423,7 @@ const Footer = () => {
               <li><Link to="/services/consultancy" className="text-gray-400 hover:text-brand-orange text-sm transition-colors">{t('nav.consultancy')}</Link></li>
               <li><Link to="/services/design" className="text-gray-400 hover:text-brand-orange text-sm transition-colors">{t('nav.design')}</Link></li>
               <li><Link to="/services/construction" className="text-gray-400 hover:text-brand-orange text-sm transition-colors">{t('nav.construction')}</Link></li>
+              <li><Link to="/services/maintenance" className="text-gray-400 hover:text-brand-orange text-sm transition-colors">{t('nav.maintenance')}</Link></li>
             </ul>
           </div>
 
@@ -484,6 +493,7 @@ export default function App() {
             <Route path="/services/consultancy" element={<Consultancy />} />
             <Route path="/services/design" element={<Design />} />
             <Route path="/services/construction" element={<Construction />} />
+            <Route path="/services/maintenance" element={<Maintenance />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
