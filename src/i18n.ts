@@ -647,7 +647,7 @@ i18n
           services: {
             consultancy: {
               title: 'Consultancy & Engineering',
-              subtitle: 'Strategische planning en technische expertise voor duurzame fietsinfrastructuur',
+              subtitle: 'Advies op maat, haalbaarheidsstudies en locatie beoordelingen voor pump tracks, skill parks en recreatieve netwerken.',
               feasibility: {
                 title: 'Haalbaarheids- & Impactstudies',
                 desc: 'Uitgebreide analyse van het potentieel van de site, de impact op het milieu en de behoeften van de lokale gebruikers om de levensvatbaarheid van het project te waarborgen.',
@@ -700,7 +700,7 @@ i18n
                   'Doelgroepgerichtheid',
                   'Functiespecifieke blauwdrukken',
                   'Ontwerp van technische obstakels',
-                  'Op progressie gebaseerde functies',
+                  'Op progressie gebaseerde obstakels',
                 ],
               },
               meso: {
@@ -709,7 +709,6 @@ i18n
                 features: [
                   'Integratie in parken & sportgebieden',
                   'Landschapsarchitectuur',
-                  'Synergie met meervoudig gebruik',
                   'Toegankelijkheid & flow',
                   'Esthetische integratie',
                   'Natuurlijke inpassing',
@@ -740,18 +739,17 @@ i18n
                 desc: 'Professionele asfalt pumptracks gebouwd voor duurzaamheid en perfecte flow.',
                 features: [
                   'Asfaltverharding',
-                  'Perfecte geometrie',
+                  'Ontwerpen gericht op progressie',
                   'Duurzaamheid in alle weersomstandigheden',
                   'Weinig onderhoud',
-                  'Toegankelijkheid voor meerdere gebruikers',
-                  'Precisievormgeving',
+                  'Toegankelijkheid voor diverse gebruikersgroepen',
                 ],
               },
               mtbTrails: {
                 title: 'Mountainbike Trails',
                 desc: 'Duurzame trailbouw die de natuurlijke omgeving respecteert en maximaal plezier biedt.',
                 features: [
-                  'Mengen met natuurlijk terrein',
+                  'Integratie in natuurlijke omgeving.',
                   'Duurzame drainage',
                   'Erosiebestrijding',
                   'Technische trailkenmerken',
@@ -815,7 +813,7 @@ i18n
               subtitle: 'Behoud van de kwaliteit en veiligheid van uw fietsinfrastructuur',
               asphalt: {
                 title: 'Asfalt Pumptracks',
-                desc: 'Gespecialiseerd onderhoud voor asfaltoppervlakken om prestaties op lange termijn en veiligheid van de rijder te garanderen.',
+                desc: 'Gespecialiseerd onderhoud voor asfaltoppervlakken om behoud op lange termijn en veiligheid van de rijder te garanderen.',
                 features: [
                   'Scheurreparatie',
                   'Erosieherstel',
