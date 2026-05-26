@@ -75,7 +75,7 @@ export default function SEO({
       "closes": "18:00"
     },
     "sameAs": [
-      "https://www.facebook.com/a2trails",
+      "https://www.linkedin.com/company/a2trails",
       "https://www.instagram.com/a2trails"
     ]
   };
