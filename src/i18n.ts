@@ -66,8 +66,8 @@ i18n
           },
           about: {
             title: 'Passion Meets Precision',
-            p1: 'A2Trails was founded by riders, for everyone. Our team combines a deep passion for mountain biking, BMX, and skateboarding with professional construction expertise to design and build world-class riding facilities.',
-            p2: 'From pump tracks and trail centers to skill parks, every project is carefully tailored to your needs. We deliver spaces that prioritize flow, safety, durability, and sustainability built with the same attention to detail we expect as riders ourselves.',
+            p1: 'A2Trails was founded by riders, for riders. Our team combines a deep passion for mountain biking, BMX, and skateboarding with professional construction expertise to design and build world-class riding facilities.',
+            p2: 'From pump tracks and trail centers to skill parks, every project is carefully tailored to your needs. We deliver spaces that prioritize flow, safety, durability, and sustainability—built with the same attention to detail we expect as riders ourselves.',
             stats: {
               experience: 'Years Experience',
               projects: 'Projects Completed',
@@ -95,11 +95,11 @@ i18n
               title: 'Meet The Team',
               anton: {
                 role: 'Founder & Designer',
-                desc: 'Landscape architect with 5 years of track building experience',
+                desc: 'Landscape architect with 5 years of track building experience.',
               },
               ward: {
                 role: 'Freelance designer - Dirt Jumps',
-                desc: 'Dedicated trail builder with an eye for detail',
+                desc: 'Dedicated trail builder with an eye for detail.',
               },
               jelle: {
                 role: 'Freelance Designer - Urban solutions',
@@ -222,7 +222,7 @@ i18n
             },
             design: {
               title: 'Design',
-              subtitle: 'Creative and functional trail designs that MAXIMISE FUN and rider experience',
+              subtitle: 'Creative and functional trail designs that maximize flow and rider experience',
               micro: {
                 title: 'Micro Design',
                 desc: 'Designing specific tracks tailored to local demands and user groups.',
@@ -534,8 +534,8 @@ i18n
           },
           about: {
             title: 'Passie Ontmoet Precisie',
-            p1: 'A2Trails is opgericht door rijders, voor iedereen. Ons team combineert een diepe passie voor mountainbiken, BMX en skateboarden met professionele bouwexpertise om rijfaciliteiten van wereldklasse te ontwerpen en te bouwen.',
-            p2: 'Van pumptracks en trailcenters tot skillparks, elk project wordt zorgvuldig afgestemd op uw behoeften. Wij leveren ruimtes die prioriteit geven aan flow, veiligheid, duurzaamheid en houdbaarheid gebouwd met dezelfde aandacht voor detail die wij als rijders zelf verwachten.',
+            p1: 'A2Trails is opgericht door rijders, voor rijders. Ons team combineert een diepe passie voor mountainbiken, BMX en skateboarden met professionele bouwexpertise om rijfaciliteiten van wereldklasse te ontwerpen en te bouwen.',
+            p2: 'Van pumptracks en trailcenters tot skillparks, elk project wordt zorgvuldig afgestemd op uw behoeften. Wij leveren ruimtes die prioriteit geven aan flow, veiligheid, duurzaamheid en houdbaarheid—gebouwd met dezelfde aandacht voor detail die wij als rijders zelf verwachten.',
             stats: {
               experience: 'Jaar Ervaring',
               projects: 'Projecten Voltooid',
@@ -563,11 +563,11 @@ i18n
               title: 'Ontmoet Het Team',
               anton: {
                 role: 'Oprichter & Ontwerper',
-                desc: 'Landschapsarchitect met 5 jaar ervaring in het bouwen van tracks',
+                desc: 'Landschapsarchitect met 5 jaar ervaring in het bouwen van tracks.',
               },
               ward: {
                 role: 'Freelance ontwerper - Dirt Jumps',
-                desc: 'Toegewijde trailbouwer met oog voor detail',
+                desc: 'Toegewijde trailbouwer met oog voor detail.',
               },
               jelle: {
                 role: 'Freelance Ontwerper - Stedelijke oplossingen',
@@ -690,7 +690,7 @@ i18n
             },
             design: {
               title: 'Ontwerp',
-              subtitle: 'Creatieve en functionele trailontwerpen die PLEZIER MAXIMALISEREN en de rijervaring optimaliseren',
+              subtitle: 'Creatieve en functionele trailontwerpen die flow en rijervaring maximaliseren',
               micro: {
                 title: 'Micro Ontwerp',
                 desc: 'Ontwerpen van specifieke tracks afgestemd op lokale behoeften en gebruikersgroepen.',
@@ -1000,8 +1000,8 @@ i18n
           },
           about: {
             title: 'La Passion Rencontre la Précision',
-            p1: 'A2Trails a été fondé par des riders, pour tous. Notre équipe combine une profonde passion pour le VTT, le BMX et le skateboard avec une expertise professionnelle en construction pour concevoir et construire des installations de classe mondiale.',
-            p2: 'Des pump tracks et centres de pistes aux parcs de compétences, chaque projet est soigneusement adapté à vos besoins. Nous livrons des espaces qui privilégient le flow, la sécurité, la durabilité et la pérennité construits avec le même souci du détail que nous attendons en tant que riders nous-mêmes.',
+            p1: 'A2Trails a été fondé par des riders, pour des riders. Notre équipe combine une profonde passion pour le VTT, le BMX et le skateboard avec une expertise professionnelle en construction pour concevoir et construire des installations de classe mondiale.',
+            p2: 'Des pump tracks et centres de pistes aux parcs de compétences, chaque projet est soigneusement adapté à vos besoins. Nous livrons des espaces qui privilégient le flow, la sécurité, la durabilité et la pérennité—construits avec le même souci du détail que nous attendons en tant que riders nous-mêmes.',
             stats: {
               experience: 'Années d\'Expérience',
               projects: 'Projets Réalisés',
@@ -1029,11 +1029,11 @@ i18n
               title: 'Rencontrez l\'Équipe',
               anton: {
                 role: 'Fondateur & Designer',
-                desc: 'Architecte paysagiste avec 5 ans d\'expérience en construction de pistes',
+                desc: 'Architecte paysagiste avec 5 ans d\'expérience en construction de pistes.',
               },
               ward: {
                 role: 'Designer freelance - Dirt Jumps',
-                desc: 'Constructeur de pistes dévoué avec un sens du détail',
+                desc: 'Constructeur de pistes dévoué avec un sens du détail.',
               },
               jelle: {
                 role: 'Designer Freelance - Solutions urbaines',
@@ -1155,7 +1155,7 @@ i18n
             },
             design: {
               title: 'Conception',
-              subtitle: 'Des conceptions de pistes créatives et fonctionnelles qui MAXIMISENT LE PLAISIR et l\'expérience du rider',
+              subtitle: 'Des conceptions de pistes créatives et fonctionnelles qui maximisent le flow et l\'expérience du rider',
               micro: {
                 title: 'Design Micro',
                 desc: 'Conception de pistes spécifiques adaptées aux demandes locales et aux groupes d\'utilisateurs.',
