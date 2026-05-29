@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from "motion/react";
-import { Mountain, Waves, Target, ArrowRight, Menu, X, ClipboardList, DraftingCompass, HardHat, ChevronDown, Facebook, Instagram, Mail, Phone, FileText, Zap, Bike, ShieldCheck, Wrench, Settings } from "lucide-react";
+import { Mountain, Waves, Target, ArrowRight, Menu, X, ClipboardList, DraftingCompass, HardHat, ChevronDown, Linkedin, Instagram, Mail, Phone, FileText, Zap, Bike, ShieldCheck, Wrench, Settings } from "lucide-react";
 import { useState, useEffect } from "react";
 import { HashRouter, Routes, Route, Link, useLocation } from "react-router-dom";
 import { useTranslation, Trans } from "react-i18next";
@@ -444,10 +444,10 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-bold mb-6">{t('footer.followUs')}</h4>
             <div className="flex gap-4">
-              <a href="#" className="h-10 w-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-brand-orange hover:text-white transition-all">
-                <Facebook className="h-5 w-5" />
+              <a href="https://www.linkedin.com/company/a2trails/" target="_blank" rel="noopener noreferrer" className="h-10 w-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-brand-orange hover:text-white transition-all">
+                <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="h-10 w-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-brand-orange hover:text-white transition-all">
+              <a href="https://www.instagram.com/a2.trails?igsh=MXIybXRuMzlwaXV4cA==" target="_blank" rel="noopener noreferrer" className="h-10 w-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-brand-orange hover:text-white transition-all">
                 <Instagram className="h-5 w-5" />
               </a>
             </div>
