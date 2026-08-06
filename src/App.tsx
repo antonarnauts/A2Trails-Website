@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from "motion/react";
-import { Mountain, Waves, Target, ArrowRight, Menu, X, ClipboardList, DraftingCompass, HardHat, ChevronDown, Linkedin, Instagram, Mail, Phone, FileText, Zap, Bike, ShieldCheck, Wrench, Settings } from "lucide-react";
+import { Mountain, Waves, Target, ArrowRight, Menu, X, ClipboardList, DraftingCompass, HardHat, ChevronDown, Linkedin, Instagram, Mail, Phone, FileText, Zap, Bike, ShieldCheck, Wrench, Settings, Landmark, Tent, Ruler } from "lucide-react";
 import { useState, useEffect } from "react";
 import { HashRouter, Routes, Route, Link, useLocation } from "react-router-dom";
 import { useTranslation, Trans } from "react-i18next";
@@ -206,7 +206,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto"
+          className="text-lg md:text-xl text-gray-300 mb-10 max-w-3xl mx-auto"
         >
           {t('hero.subtitle')}
         </motion.p>
@@ -264,6 +264,88 @@ const ConstructionProducts = () => {
                   {product.title}
                 </span>
               </Link>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+const AudienceGateway = () => {
+  const { t } = useTranslation();
+  const sectors = [
+    {
+      id: "municipalities",
+      icon: <Landmark className="h-10 w-10 text-brand-orange" />,
+      title: t('sectors.municipalities.title'),
+      tagline: t('sectors.municipalities.tagline'),
+      desc: t('sectors.municipalities.desc'),
+    },
+    {
+      id: "contractors",
+      icon: <HardHat className="h-10 w-10 text-brand-orange" />,
+      title: t('sectors.contractors.title'),
+      tagline: t('sectors.contractors.tagline'),
+      desc: t('sectors.contractors.desc'),
+    },
+    {
+      id: "holidayParks",
+      icon: <Tent className="h-10 w-10 text-brand-orange" />,
+      title: t('sectors.holidayParks.title'),
+      tagline: t('sectors.holidayParks.tagline'),
+      desc: t('sectors.holidayParks.desc'),
+    },
+    {
+      id: "architects",
+      icon: <Ruler className="h-10 w-10 text-brand-orange" />,
+      title: t('sectors.architects.title'),
+      tagline: t('sectors.architects.tagline'),
+      desc: t('sectors.architects.desc'),
+    },
+  ];
+
+  return (
+    <section id="sectors" className="py-24 bg-brand-dark/40 relative border-b border-white/5">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <motion.h2 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-4xl md:text-5xl font-bold mb-4 text-white"
+          >
+            {t('sectors.title')}
+          </motion.h2>
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+            className="text-gray-400 text-lg"
+          >
+            {t('sectors.subtitle')}
+          </motion.p>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          {sectors.map((sector, index) => (
+            <motion.div
+              key={sector.id}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: index * 0.2 }}
+              className="bg-brand-card rounded-2xl border border-white/5 p-10 flex flex-col justify-start"
+            >
+              <div className="mb-6">{sector.icon}</div>
+              <h3 className="text-2xl font-bold mb-3 text-white">{sector.title}</h3>
+              <p className="text-brand-orange font-semibold mb-3 leading-snug">
+                {sector.tagline}
+              </p>
+              <p className="text-gray-400 leading-relaxed">
+                {sector.desc}
+              </p>
             </motion.div>
           ))}
         </div>
@@ -332,15 +414,17 @@ const Expertise = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.2 }}
-              className="bg-brand-card rounded-2xl border border-white/5 hover:border-brand-orange/30 transition-all group overflow-hidden"
+              className="bg-brand-card rounded-2xl border border-white/5 hover:border-brand-orange/30 transition-all group overflow-hidden flex flex-col"
             >
-              <Link to={service.href} className="block p-10 h-full">
-                <div className="mb-6">{service.icon}</div>
-                <h3 className="text-2xl font-bold mb-4">{service.title}</h3>
-                <p className="text-gray-400 mb-8 leading-relaxed">
-                  {service.description}
-                </p>
-                <div className="inline-flex items-center text-brand-orange font-bold group-hover:underline gap-2">
+              <Link to={service.href} className="flex flex-col justify-between p-10 h-full">
+                <div>
+                  <div className="mb-6">{service.icon}</div>
+                  <h3 className="text-2xl font-bold mb-4">{service.title}</h3>
+                  <p className="text-gray-400 mb-8 leading-relaxed">
+                    {service.description}
+                  </p>
+                </div>
+                <div className="inline-flex items-center text-brand-orange font-bold group-hover:underline gap-2 mt-auto">
                   {t('expertise.learnMore')}
                   <ArrowRight className="h-4 w-4" />
                 </div>
@@ -472,10 +556,11 @@ const HomePage = () => (
   <>
     <SEO 
       title="Home" 
-      description="Professional construction of mountain biking infrastructure perfectly adapted to your specific needs. Building tracks, creating experiences."
+      description="Professional construction of riding infrastructure - helping municipalities, developers, and holiday parks create vibrant, active outdoor spaces."
     />
     <Hero />
     <ConstructionProducts />
+    <AudienceGateway />
     <Expertise />
     <CTA />
   </>

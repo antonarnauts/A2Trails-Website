@@ -26,14 +26,38 @@ i18n
             designBuild: 'Design and Build',
           },
           hero: {
-            title: 'Building Tracks,<br />Creating Experiences',
-            subtitle: 'Professional construction of mountain biking infrastructure that is perfectly adapted to your specific needs',
+            title: 'Designing & Building<br />Riding Infrastructure for Lasting Impact',
+            subtitle: 'Professional construction of riding infrastructure - helping municipalities, developers, and holiday parks create vibrant, active outdoor spaces',
             cta: 'View Our Projects',
             cta2: 'Get In Touch',
           },
+          sectors: {
+            title: 'Solutions Tailored to Your Sector',
+            subtitle: 'Specialized design, consultancy, and construction expertise engineered for your unique project requirements.',
+            municipalities: {
+              title: 'Municipalities',
+              tagline: 'Inclusive sports hubs & active mobility',
+              desc: 'Transform public spaces into thriving community hubs with certified pump tracks, urban skills parks, and accessible mountain biking trails.',
+            },
+            contractors: {
+              title: 'Contractors & Developers',
+              tagline: 'Specialist B2B design-and-build partner',
+              desc: 'Team up with experienced trail building specialists for development and delivery of projects in the public domain.',
+            },
+            holidayParks: {
+              title: 'Campings & Holiday Parks',
+              tagline: 'Compact family attractions and sports facilities',
+              desc: 'Skill parks and compact pumptracks that enhance and diversify guest experience.',
+            },
+            architects: {
+              title: 'Architects',
+              tagline: 'Co-creating attractive and engaging public spaces',
+              desc: 'Seamlessly integrate our designs and user flow into your master plans with specialised technical and feasibility support.',
+            },
+          },
           expertise: {
             title: 'Our Expertise',
-            subtitle: 'Specialized construction services for riders of all levels',
+            subtitle: 'Design-and-build or solutions catered to your unique vision',
             learnMore: 'Learn More',
             consultancy: {
               desc: 'Strategic feasibility studies, site assessments, and technical engineering for sustainable biking and mountain-biking infrastructure.',
@@ -494,14 +518,38 @@ i18n
             designBuild: 'Design and Build',
           },
           hero: {
-            title: 'Tracks Bouwen,<br />Ervaringen Creëren',
-            subtitle: 'Professionele aanleg van mountainbike-infrastructuur die perfect is aangepast aan uw specifieke behoeften',
+            title: 'Ontwerpen & Bouwen van<br />Rij-infrastructuur voor Blijvende Impact',
+            subtitle: 'Professionele aanleg van fietsinfrastructuur - wij helpen gemeenten, projectontwikkelaars en vakantieparken levendige, actieve buitenruimtes te creëren',
             cta: 'Bekijk Onze Projecten',
             cta2: 'Neem Contact Op',
           },
+          sectors: {
+            title: 'Oplossingen Afgestemd op Uw Sector',
+            subtitle: 'Gespecialiseerd ontwerp, advies en bouwexpertise afgestemd op de specifieke vereisten van uw project.',
+            municipalities: {
+              title: 'Gemeenten & Overheden',
+              tagline: 'Inclusieve sport- en ontmoetingsplekken & actieve mobiliteit',
+              desc: 'Transformeer openbare ruimtes tot bruisende ontmoetingsplekken met gecertificeerde pumptracks, urban skills parks en toegankelijke mountainbikeroutes.',
+            },
+            contractors: {
+              title: 'Aannemers & Ontwikkelaars',
+              tagline: 'Gespecialiseerde B2B design-and-build partner',
+              desc: 'Werk samen met ervaren trailbouw-specialisten voor de ontwikkeling en oplevering van projecten in de openbare ruimte.',
+            },
+            holidayParks: {
+              title: 'Campings & Vakantieparken',
+              tagline: 'Compacte gezinsattracties en sportfaciliteiten',
+              desc: 'Skillparks en compacte pumptracks die de gastbeleving verrijken en diversifiëren.',
+            },
+            architects: {
+              title: 'Architecten & Landschapsplanners',
+              tagline: 'Samen aantrekkelijke en dynamische openbare ruimtes creëren',
+              desc: 'Integreer onze ontwerpen en gebruikersstromen naadloos in uw masterplannen met gespecialiseerde technische en haalbaarheidsondersteuning.',
+            },
+          },
           expertise: {
             title: 'Onze Expertise',
-            subtitle: 'Gespecialiseerde bouwdiensten voor rijders van alle niveaus',
+            subtitle: 'Design-and-build of oplossingen afgestemd op uw unieke visie',
             learnMore: 'Lees meer',
             consultancy: {
               desc: 'Strategische haalbaarheidsstudies, locatiebeoordelingen en technische engineering voor duurzame trailcenters en skillparks.',
@@ -960,14 +1008,38 @@ i18n
             designBuild: 'Design and Build',
           },
           hero: {
-            title: 'Construire des Pistes,<br />Créer des Expériences',
-            subtitle: 'Construction professionnelle d\'infrastructures de VTT parfaitement adaptées à vos besoins spécifiques',
+            title: 'Conception & Construction<br />d\'Infrastructures Cyclables pour un Impact Durable',
+            subtitle: 'Construction professionnelle d\'infrastructures cyclables - nous aidons les municipalités, les promoteurs et les villages de vacances à créer des espaces extérieurs dynamiques et actifs',
             cta: 'Voir Nos Projets',
             cta2: 'Contactez-nous',
           },
+          sectors: {
+            title: 'Des Solutions Adaptées à Votre Secteur',
+            subtitle: 'Conception spécialisée, conseil technique et expertise de construction adaptés aux exigences spécifiques de votre projet.',
+            municipalities: {
+              title: 'Municipalités & Collectivités',
+              tagline: 'Pôles sportifs inclusifs & mobilité active',
+              desc: 'Transformez les espaces publics en lieux de vie dynamiques avec des pump tracks homologués, des parcs d\'apprentissage et des pistes de VTT accessibles.',
+            },
+            contractors: {
+              title: 'Entreprises Générales & Promoteurs',
+              tagline: 'Partenaire B2B spécialisé en design & build',
+              desc: 'Collaborez avec des spécialistes confirmés de la construction de pistes pour le développement et la livraison de projets dans l\'espace public.',
+            },
+            holidayParks: {
+              title: 'Campings & Villages de Vacances',
+              tagline: 'Attractions familiales compactes et installations sportives',
+              desc: 'Des skill parks et pump tracks compacts qui enrichissent et diversifient l\'expérience de vos visiteurs.',
+            },
+            architects: {
+              title: 'Architectes & Paysagistes',
+              tagline: 'Co-création d\'espaces publics attractifs et dynamiques',
+              desc: 'Intégrez harmonieusement nos conceptions et flux d\'utilisateurs dans vos plans directeurs grâce à notre expertise technique et nos études de faisabilité.',
+            },
+          },
           expertise: {
             title: 'Notre Expertise',
-            subtitle: 'Services de construction spécialisés pour les riders de tous niveaux',
+            subtitle: 'Design & build ou solutions adaptées à votre vision unique',
             learnMore: 'En savoir plus',
             consultancy: {
               desc: 'Études de faisabilité stratégiques, évaluations de sites et ingénierie technique pour des centres de pistes et des parcs de compétences durables.',
